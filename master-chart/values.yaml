@@ -1,0 +1,14 @@
+postgres:
+  enabled: true
+
+redis:
+  enabled: true
+
+voting:
+  enabled: true
+  
+result:
+  enabled: true
+
+worker: 
+  enabled: true

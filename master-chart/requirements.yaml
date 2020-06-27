@@ -1,0 +1,17 @@
+dependencies:
+- name: db
+  version: 0.1.0
+  repository: "file://../services/db"
+- name: redis
+  version: 0.1.0
+  repository: "file://../services/redis"
+- name: voting-service
+  version: 0.1.0
+  repository: "file://../services/voting-service"
+- name: result-service
+  version: 0.1.0
+  repository: "file://../services/result-service"
+- name: worker
+  version: 0.1.0
+  repository: "file://../services/worker"
+  

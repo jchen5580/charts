@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  db:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-27T12:18:49.2645354-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 5ab24846c5d9d716b8492aac4a52b0ce2327d27d33c3cc6ea46d77674d1a2a0a
+    name: db
+    type: application
+    urls:
+    - https://jchen5580.github.io/charts/db-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-06-27T12:18:49.2645354-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 270ea712c4355839fa9184bb94c30d56215e5951241e1e0fc437b8a5b5437323
+    name: redis
+    type: application
+    urls:
+    - https://jchen5580.github.io/charts/redis-0.1.0.tgz
+    version: 0.1.0
+  result-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-27T12:18:49.2655352-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 678fc126e9be04f8a7c08a2d5a9f61ae76009223ebc4ea3a3d0a65671f99564a
+    name: result-service
+    type: application
+    urls:
+    - https://jchen5580.github.io/charts/result-service-0.1.0.tgz
+    version: 0.1.0
+  voting-service:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-06-27T12:18:49.2665345-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 3610ad2cb29bce7d12d52d67b544595b31987e4d540c1aec309c73ed229e3c01
+    name: voting-service
+    type: application
+    urls:
+    - https://jchen5580.github.io/charts/voting-service-0.1.0.tgz
+    version: 0.1.0
+  worker:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-27T12:18:49.2665345-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 5ce66f8c02f89e671db478f12f794c76080d162f51da02d1ed6a24837bcc6df4
+    name: worker
+    type: application
+    urls:
+    - https://jchen5580.github.io/charts/worker-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-27T12:18:49.2635361-04:00"

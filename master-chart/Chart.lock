@@ -1,0 +1,18 @@
+dependencies:
+- name: db
+  repository: file://../services/db
+  version: 0.1.0
+- name: redis
+  repository: file://../services/redis
+  version: 0.1.0
+- name: voting-service
+  repository: file://../services/voting-service
+  version: 0.1.0
+- name: result-service
+  repository: file://../services/result-service
+  version: 0.1.0
+- name: worker
+  repository: file://../services/worker
+  version: 0.1.0
+digest: sha256:de902d1dd4678343fe5e640c242aa5bf5091b8de41e5100d12bac97939356eee
+generated: "2020-06-27T11:14:37.9507842-04:00"
