@@ -1,13 +1,13 @@
-postgres:
+db:
   enabled: true
 
 redis:
   enabled: true
 
-voting:
+voting-service:
   enabled: true
   
-result:
+result-service:
   enabled: true
 
 worker: 

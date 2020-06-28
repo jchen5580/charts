@@ -26,17 +26,22 @@ dependencies:
 - name: db
   version: 0.1.0
   repository: "https://jchen5580.github.io/charts"
+  condition: db.enabled
 - name: redis
   version: 0.1.0
   repository: "https://jchen5580.github.io/charts"
+  condition: redis.enabled
 - name: voting-service
   version: 0.1.0
   repository: "https://jchen5580.github.io/charts"
+  condition: voting-service.enabled
 - name: result-service
   version: 0.1.0
   repository: "https://jchen5580.github.io/charts"
+  condition: result-service.enabled
 - name: worker
   version: 0.1.0
   repository: "https://jchen5580.github.io/charts"
+  condition: worker.enabled
 
 

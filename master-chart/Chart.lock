@@ -14,5 +14,5 @@ dependencies:
 - name: worker
   repository: https://jchen5580.github.io/charts
   version: 0.1.0
-digest: sha256:a29c4bb6fe87b4d06fbc8f4c91a27f35986784c965812ce012738a40711367f5
-generated: "2020-06-27T14:23:59.856403-04:00"
+digest: sha256:e4134b0d4e0f2a9022cbeeed4ec90e26fec5e4f18af3933fc8072edba5bea4a4
+generated: "2020-06-28T16:51:42.4895534-04:00"
