@@ -10,8 +10,8 @@ rm dist/*.*
 echo 'move packed charts to dist'
 mv *.tgz dist/
 
-echo 'update index of charts in repo https://jchen5580.github.io/charts'
+echo 'update index of charts for repo https://jchen5580.github.io/charts'
 helm repo index dist/ --url https://jchen5580.github.io/charts
 
 echo 'push charts in dist/ to repo https://jchen5580.github.io/charts'
-helm repo add dist/ https://jchen5580.github.io/charts
+helm repo add dist https://jchen5580.github.io/charts

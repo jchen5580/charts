@@ -1,18 +1,18 @@
 dependencies:
 - name: db
-  repository: file://../services/db
+  repository: https://jchen5580.github.io/charts
   version: 0.1.0
 - name: redis
-  repository: file://../services/redis
+  repository: https://jchen5580.github.io/charts
   version: 0.1.0
 - name: voting-service
-  repository: file://../services/voting-service
+  repository: https://jchen5580.github.io/charts
   version: 0.1.0
 - name: result-service
-  repository: file://../services/result-service
+  repository: https://jchen5580.github.io/charts
   version: 0.1.0
 - name: worker
-  repository: file://../services/worker
+  repository: https://jchen5580.github.io/charts
   version: 0.1.0
-digest: sha256:de902d1dd4678343fe5e640c242aa5bf5091b8de41e5100d12bac97939356eee
-generated: "2020-06-27T11:14:37.9507842-04:00"
+digest: sha256:a29c4bb6fe87b4d06fbc8f4c91a27f35986784c965812ce012738a40711367f5
+generated: "2020-06-27T14:23:59.856403-04:00"
