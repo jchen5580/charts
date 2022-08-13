@@ -98,4 +98,15 @@ entries:
     urls:
     - https://jchen5580.github.io/charts/worker-0.1.0.tgz
     version: 0.1.0
+  common:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-08-12T21:56:58.498152-04:00"
+    description: CE Common Chart for Kubernetes
+    digest: 2d65b295bbc046f6ebd7cf9f41f09f1f22c6b8928d0c00c07da9f94f11987d52
+    name: common
+    urls:
+    - https://jchen5580.github.io/charts/common-0.0.1.tgz
+    version: 0.0.1
+
 generated: "2020-06-28T16:51:52.1538379-04:00"
