@@ -110,17 +110,17 @@ entries:
     version: 0.0.1
   btc-service:
   - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2022-08-18T16:53:28.80138-04:00"
+    appVersion: 0.0.2
+    created: "2022-08-31T13:49:39.491307-04:00"
     dependencies:
     - name: common
       repository: https://jchen5580.github.io/charts
       version: 0.0.1
     description: Helm Chart for BTC Services
-    digest: c2966e506b2d1b413942f74bd08c4c1301c9b5fb409772f25002722e65a87b3b
+    digest: cd8e622bd3a232aeede5e7744937bbede2a7c5541fb3c515de31826e104dfbb2b
     name: btc-service
     type: application
     urls:
-    - btc-service-0.0.1.tgz
-    version: 0.0.1
-generated: "2020-06-28T16:51:52.1538379-04:00"
+    - btc-service-0.0.2.tgz
+    version: 0.0.2
+generated: "2022-08-31T13:55:13.163445-04:00"
